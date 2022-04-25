@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFF23D72816EBB300F47DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF23D62816EBB300F47DC3 /* AppDelegate.swift */; };
+		FAFF23D92816EBB300F47DC3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAFF23D82816EBB300F47DC3 /* GameScene.sks */; };
+		FAFF23DB2816EBB300F47DC3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAFF23DA2816EBB300F47DC3 /* Actions.sks */; };
+		FAFF23DD2816EBB300F47DC3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF23DC2816EBB300F47DC3 /* GameScene.swift */; };
+		FAFF23DF2816EBB300F47DC3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF23DE2816EBB300F47DC3 /* GameViewController.swift */; };
+		FAFF23E22816EBB300F47DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFF23E02816EBB300F47DC3 /* Main.storyboard */; };
+		FAFF23E42816EBB400F47DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFF23E32816EBB400F47DC3 /* Assets.xcassets */; };
+		FAFF23E72816EBB400F47DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFF23E52816EBB400F47DC3 /* LaunchScreen.storyboard */; };
+		FAFF23F12816EBB400F47DC3 /* Joe_adventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF23F02816EBB400F47DC3 /* Joe_adventureTests.swift */; };
+		FAFF23FB2816EBB400F47DC3 /* Joe_adventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF23FA2816EBB400F47DC3 /* Joe_adventureUITests.swift */; };
+		FAFF23FD2816EBB400F47DC3 /* Joe_adventureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF23FC2816EBB400F47DC3 /* Joe_adventureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFF23ED2816EBB400F47DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFF23CB2816EBB300F47DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFF23D22816EBB300F47DC3;
+			remoteInfo = "Joe adventure";
+		};
+		FAFF23F72816EBB400F47DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFF23CB2816EBB300F47DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFF23D22816EBB300F47DC3;
+			remoteInfo = "Joe adventure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFF23D32816EBB300F47DC3 /* Joe adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joe adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF23D62816EBB300F47DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFF23D82816EBB300F47DC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FAFF23DA2816EBB300F47DC3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FAFF23DC2816EBB300F47DC3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FAFF23DE2816EBB300F47DC3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FAFF23E12816EBB300F47DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFF23E32816EBB400F47DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFF23E62816EBB400F47DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFF23EC2816EBB400F47DC3 /* Joe adventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Joe adventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF23F02816EBB400F47DC3 /* Joe_adventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joe_adventureTests.swift; sourceTree = "<group>"; };
+		FAFF23F62816EBB400F47DC3 /* Joe adventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Joe adventureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF23FA2816EBB400F47DC3 /* Joe_adventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joe_adventureUITests.swift; sourceTree = "<group>"; };
+		FAFF23FC2816EBB400F47DC3 /* Joe_adventureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joe_adventureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFF23D02816EBB300F47DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF23E92816EBB400F47DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF23F32816EBB400F47DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFF23CA2816EBB300F47DC3 = {
+			isa = PBXGroup;
+			children = (
+				FAFF23D52816EBB300F47DC3 /* Joe adventure */,
+				FAFF23EF2816EBB400F47DC3 /* Joe adventureTests */,
+				FAFF23F92816EBB400F47DC3 /* Joe adventureUITests */,
+				FAFF23D42816EBB300F47DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFF23D42816EBB300F47DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF23D32816EBB300F47DC3 /* Joe adventure.app */,
+				FAFF23EC2816EBB400F47DC3 /* Joe adventureTests.xctest */,
+				FAFF23F62816EBB400F47DC3 /* Joe adventureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFF23D52816EBB300F47DC3 /* Joe adventure */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF23D62816EBB300F47DC3 /* AppDelegate.swift */,
+				FAFF23D82816EBB300F47DC3 /* GameScene.sks */,
+				FAFF23DA2816EBB300F47DC3 /* Actions.sks */,
+				FAFF23DC2816EBB300F47DC3 /* GameScene.swift */,
+				FAFF23DE2816EBB300F47DC3 /* GameViewController.swift */,
+				FAFF23E02816EBB300F47DC3 /* Main.storyboard */,
+				FAFF23E32816EBB400F47DC3 /* Assets.xcassets */,
+				FAFF23E52816EBB400F47DC3 /* LaunchScreen.storyboard */,
+			);
+			path = "Joe adventure";
+			sourceTree = "<group>";
+		};
+		FAFF23EF2816EBB400F47DC3 /* Joe adventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF23F02816EBB400F47DC3 /* Joe_adventureTests.swift */,
+			);
+			path = "Joe adventureTests";
+			sourceTree = "<group>";
+		};
+		FAFF23F92816EBB400F47DC3 /* Joe adventureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF23FA2816EBB400F47DC3 /* Joe_adventureUITests.swift */,
+				FAFF23FC2816EBB400F47DC3 /* Joe_adventureUITestsLaunchTests.swift */,
+			);
+			path = "Joe adventureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFF23D22816EBB300F47DC3 /* Joe adventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFF24002816EBB400F47DC3 /* Build configuration list for PBXNativeTarget "Joe adventure" */;
+			buildPhases = (
+				FAFF23CF2816EBB300F47DC3 /* Sources */,
+				FAFF23D02816EBB300F47DC3 /* Frameworks */,
+				FAFF23D12816EBB300F47DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Joe adventure";
+			productName = "Joe adventure";
+			productReference = FAFF23D32816EBB300F47DC3 /* Joe adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFF23EB2816EBB400F47DC3 /* Joe adventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFF24032816EBB400F47DC3 /* Build configuration list for PBXNativeTarget "Joe adventureTests" */;
+			buildPhases = (
+				FAFF23E82816EBB400F47DC3 /* Sources */,
+				FAFF23E92816EBB400F47DC3 /* Frameworks */,
+				FAFF23EA2816EBB400F47DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFF23EE2816EBB400F47DC3 /* PBXTargetDependency */,
+			);
+			name = "Joe adventureTests";
+			productName = "Joe adventureTests";
+			productReference = FAFF23EC2816EBB400F47DC3 /* Joe adventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAFF23F52816EBB400F47DC3 /* Joe adventureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFF24062816EBB400F47DC3 /* Build configuration list for PBXNativeTarget "Joe adventureUITests" */;
+			buildPhases = (
+				FAFF23F22816EBB400F47DC3 /* Sources */,
+				FAFF23F32816EBB400F47DC3 /* Frameworks */,
+				FAFF23F42816EBB400F47DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFF23F82816EBB400F47DC3 /* PBXTargetDependency */,
+			);
+			name = "Joe adventureUITests";
+			productName = "Joe adventureUITests";
+			productReference = FAFF23F62816EBB400F47DC3 /* Joe adventureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFF23CB2816EBB300F47DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FAFF23D22816EBB300F47DC3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FAFF23EB2816EBB400F47DC3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FAFF23D22816EBB300F47DC3;
+					};
+					FAFF23F52816EBB400F47DC3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FAFF23D22816EBB300F47DC3;
+					};
+				};
+			};
+			buildConfigurationList = FAFF23CE2816EBB300F47DC3 /* Build configuration list for PBXProject "Joe adventure" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFF23CA2816EBB300F47DC3;
+			productRefGroup = FAFF23D42816EBB300F47DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFF23D22816EBB300F47DC3 /* Joe adventure */,
+				FAFF23EB2816EBB400F47DC3 /* Joe adventureTests */,
+				FAFF23F52816EBB400F47DC3 /* Joe adventureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFF23D12816EBB300F47DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF23E22816EBB300F47DC3 /* Main.storyboard in Resources */,
+				FAFF23D92816EBB300F47DC3 /* GameScene.sks in Resources */,
+				FAFF23E42816EBB400F47DC3 /* Assets.xcassets in Resources */,
+				FAFF23E72816EBB400F47DC3 /* LaunchScreen.storyboard in Resources */,
+				FAFF23DB2816EBB300F47DC3 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF23EA2816EBB400F47DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF23F42816EBB400F47DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFF23CF2816EBB300F47DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF23DD2816EBB300F47DC3 /* GameScene.swift in Sources */,
+				FAFF23DF2816EBB300F47DC3 /* GameViewController.swift in Sources */,
+				FAFF23D72816EBB300F47DC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF23E82816EBB400F47DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF23F12816EBB400F47DC3 /* Joe_adventureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF23F22816EBB400F47DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF23FD2816EBB400F47DC3 /* Joe_adventureUITestsLaunchTests.swift in Sources */,
+				FAFF23FB2816EBB400F47DC3 /* Joe_adventureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFF23EE2816EBB400F47DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFF23D22816EBB300F47DC3 /* Joe adventure */;
+			targetProxy = FAFF23ED2816EBB400F47DC3 /* PBXContainerItemProxy */;
+		};
+		FAFF23F82816EBB400F47DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFF23D22816EBB300F47DC3 /* Joe adventure */;
+			targetProxy = FAFF23F72816EBB400F47DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFF23E02816EBB300F47DC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFF23E12816EBB300F47DC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFF23E52816EBB400F47DC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFF23E62816EBB400F47DC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFF23FE2816EBB400F47DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFF23FF2816EBB400F47DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFF24012816EBB400F47DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 845369TWQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "josivanap.Joe-adventure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFF24022816EBB400F47DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 845369TWQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "josivanap.Joe-adventure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAFF24042816EBB400F47DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 845369TWQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "josivanap.Joe-adventureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joe adventure.app/Joe adventure";
+			};
+			name = Debug;
+		};
+		FAFF24052816EBB400F47DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 845369TWQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "josivanap.Joe-adventureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joe adventure.app/Joe adventure";
+			};
+			name = Release;
+		};
+		FAFF24072816EBB400F47DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 845369TWQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "josivanap.Joe-adventureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Joe adventure";
+			};
+			name = Debug;
+		};
+		FAFF24082816EBB400F47DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 845369TWQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "josivanap.Joe-adventureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Joe adventure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFF23CE2816EBB300F47DC3 /* Build configuration list for PBXProject "Joe adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF23FE2816EBB400F47DC3 /* Debug */,
+				FAFF23FF2816EBB400F47DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFF24002816EBB400F47DC3 /* Build configuration list for PBXNativeTarget "Joe adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF24012816EBB400F47DC3 /* Debug */,
+				FAFF24022816EBB400F47DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFF24032816EBB400F47DC3 /* Build configuration list for PBXNativeTarget "Joe adventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF24042816EBB400F47DC3 /* Debug */,
+				FAFF24052816EBB400F47DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFF24062816EBB400F47DC3 /* Build configuration list for PBXNativeTarget "Joe adventureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF24072816EBB400F47DC3 /* Debug */,
+				FAFF24082816EBB400F47DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFF23CB2816EBB300F47DC3 /* Project object */;
+}
